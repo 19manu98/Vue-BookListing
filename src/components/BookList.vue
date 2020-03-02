@@ -29,7 +29,7 @@ export default {
         }
     },
     methods: {
-        appendBook: function($bookTitle,$bookAuthor){
+        appendBook(bookTitle,bookAuthor){
             this.books.push({ title: bookTitle, author: bookAuthor }) 
         }
     },
